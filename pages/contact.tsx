@@ -1,23 +1,20 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
 import { Fragment } from 'react';
-import About from '../components/About';
-import Hero from '../components/Hero';
-
 
 const Home: NextPage = () => {
   return (
     <Fragment>
       <Head>
-        <title>Iliso Urban Planners</title>
+        <title>Iliso Urban Planners | Contact</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero />
-      <About />
-    </Fragment>
 
+     <h1>Contact</h1>
 
      
+    </Fragment>
   )
 }
 
