@@ -32,6 +32,9 @@ const About = () => {
 
 <h3 className="mt-3 pl-2 lg:pl-8 font-extrabold">Our Mission</h3>
 <p className="text-sm text-gray-600 pl-2 lg:pl-8">Iliso Urban Planners is a firm of Town Planners which is in business to identify, serve and satisfy the needs and expectations of its clients in both the public and private sectors in the composite fields of planning and development. Iliso Urban Planners employs a strategic and developmental approach for every planning action that the company is involved in, with a specific emphasis on conducting work in a socially and environmentally responsible manner. Through the innovative and creative use of its expertise, knowledge and technology, the company will continue to provide a service of the highest quality, thereby satisfying the varying needs of relevant stakeholders.
+        </p>
+        
+        <p className="text-sm text-gray-600 pl-2 lg:pl-8 mt-4"><strong>Solomzi Gusha</strong> is the director of Iliso Urban Planners, he is a graduate of Cape Peninsula University of Technology.I was inspired  to study town planning because of the province I come from. Whilst the province is land-rich  it is poorly planned, it has aging infrastructure and land is not used sustainably. My passion grew for town and regional planning to change my province  and further educate the public to take care of the space around them. 
 </p>
 
           </div>
