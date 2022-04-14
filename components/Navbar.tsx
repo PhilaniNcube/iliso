@@ -15,10 +15,10 @@ const Navbar = () => {
   return (
       <Fragment>
           <div className="max-w-6xl mx-auto py-2 flex items-center justify-between">
-              <h3 className="flex flex-col text-4xl leading-7"><span className="font-bold text-sky-900 tracking-widest">iliso</span><span className="font-medium text-xs uppercase text-green-700">Urban Planners</span></h3>
+           <Link href="/" passHref><img src="/images/logo-01.svg" className="h-[35px] object-cover cursor-pointer" /></Link>
               
-              <nav className="hidden font-medium md:flex space-x-2 text-md">
-                  <Link href="/"><a className={path === '/' ? `text-green-700` : ""}>Home</a></Link>
+              <nav className="hidden font-medium md:flex space-x-2 text-md font-mont-bold">
+                  <Link href="/"><a className={path === '/' ? `text-green-700 ` : ""}>Home</a></Link>
                   <Link href="/services"><a className={path === '/services' ? `text-green-700` : ""}>Services</a></Link>
                   <Link href="/contact"><a className={path === '/contact' ? `text-green-700` : ""}>Contact Us</a></Link>
               </nav>
