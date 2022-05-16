@@ -43,7 +43,3 @@
     font-style: normal;
   }
 }
-
-body {
-  @apply font-mont;
-}

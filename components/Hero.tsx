@@ -1,31 +1,33 @@
 import React, { Fragment } from 'react'
-import Image from 'next/image'
-import Link from 'next/link';
+import {PhoneIcon} from '@heroicons/react/outline'
+
 
 const Hero = () => {
   return (
-      <div>
-    <div className="relative shadow-inner ">
-          <div className="overflow-hidden width-[100vw] h-[70vh] z-[-1]">
-            <Image
-                alt="Hero"
-                src="/images/hero.jpg"
-                layout="fill"
-                objectFit="cover"
-                quality={80}
-            />
+    <Fragment>
+      <div className="w-full h-[85vh] bg-hero bg-center bg-blend-overlay bg-slate-900/80 bg-cover bg-no-repeat flex justify-center items-center">
+
+        <div className="max-w-7xl mx-auto flex flex-col items-start justify-center px-8 lg:px-0 w-full h-full">
+          <h1 className="text-2xl md:text-4xl lg:text-6xl text-green-400 font-extrabold">Iliso Urban <br /> Planners</h1>
+          
+          <p className="font-medium mt-6 text-lg md:text-2xl text-white">Planning beyond the future.</p>
+
+        </div>
+
+      </div>
+      <div className="h-[10vh] bg-slate-800 hidden md:block">
+        <div className="max-w-7xl mx-auto flex justify-between items-center h-full">
+          <h2 className="text-white text-lg">Do you have a question?</h2>
+          <div className="flex text-white space-x-6 items-center h-full">
+            <span className="">
+
+              <PhoneIcon className="h-10 w-10" />
+            </span>
+            <span className="text-2xl">072 742 0073</span>
           </div>
-          <div className="absolute inset-0 w-full h-[60vh] flex justify-end">
-              <div className="h-full w-full  lg:w-[60%] justify-center flex flex-col space-y-2">
-            <h1 className="text-2xl place-self-start md:text-3xl lg:text-6xl text-sky-700 font-mont-extrabold tracking-wide">Planning</h1>
-
-            <h2 className="text-lg md:text-xl place-self-start lg:text-3xl uppercase font-mont-bold text-green-700">Beyond The Future</h2>
-
-            <Link href="/contact"><a className="text-base font-bold px-5 py-2 bg-sky-700 rounded w-[200px] text-center text-white">Learn More</a></Link>
-              </div>
-
-          </div>
-    </div></div>
+        </div>
+      </div>
+    </Fragment>
   )
 }
 

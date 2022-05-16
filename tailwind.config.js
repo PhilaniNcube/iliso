@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        hero: "url('/images/bulldozer.jpg')",
+      },
       fontFamily: {
         mont: 'Montserrat',
         'mont-light': 'Montserrat-Light',

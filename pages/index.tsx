@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <title>Iliso Urban Planners</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero />
+       <Hero />
       <About />
     </Fragment>
 
