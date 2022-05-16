@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router';
 import { FaWhatsapp } from "react-icons/fa";
 import { Menu, Transition } from '@headlessui/react';
-import { ChevronDownIcon, MenuAlt1Icon, MenuAlt4Icon } from '@heroicons/react/outline';
+import {  MenuAlt1Icon } from '@heroicons/react/outline';
 
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
       <Fragment>
-      <div className="fixed inset-0 h-16 bg-transparent border-b border-slate-50/10 shadow-lg shadow-slate-600/30 backdrop-blur">
+      <div className="fixed inset-0 h-16 bg-slate-800/40 border-b border-slate-50/10 shadow-lg shadow-slate-600/30 backdrop-blur">
         <nav className="flex items-center max-w-7xl mx-auto justify-between px-6 lg:px-0">
           <img src="/images/logo-01.svg" alt="logo" className="h-16 object-cover py-2" />
           
